@@ -1,5 +1,8 @@
+
 import java.util.Scanner;
+
 public class Ejercicio5 {
+
     public static void main(String[] args) {
         //Declaracion de datos o variables
         double costoComputadora, cpu, teclado, pantalla, raton;
@@ -14,8 +17,7 @@ public class Ejercicio5 {
         raton = pe.nextDouble();
         costoComputadora = raton + cpu + teclado + pantalla;
         System.out.println("Costo total de la computadora = " + costoComputadora);
-        
-        
+
     }
-    
+
 }
